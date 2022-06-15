@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Table</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./js/index.js">
+    <script src="./js/index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;family=Raleway:wght@500;500;600&amp;display=swap');
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,300&family=Raleway&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__navbar">
+                <div class="header-logo">
+                    <a href="index.html"> <img src="./picture/logo.svg" alt="logo" class="header-logo-img"></a>
+                </div>
+                <div id="header__menu-bars" onclick="openFunction()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </div>
+                <div id="header__menu-overlay"></div>
+                <div id="header__mobile-menu">
+                    <div class="nav-close-btn" onclick="openFunction()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </div>
+                    <ul class="header-menu-list-mobile">
+                        <li class="header-menu-mobile-iteam-mobile"><a href="index.html" class="header-menu-link-mobile">Home</a></li>
+                        <li class="header-menu-mobile-iteam-mobile"><a href="menu.html" class="header-menu-link-mobile">Menu</a></li>
+                        <li class="header-menu-mobile-iteam-mobile"><a href="" class="header-menu-link-mobile">About</a></li>
+                        <li class="header-menu-mobile-iteam-mobile"><a href="" class="header-menu-link-mobile">Contact</a></li>
+                        <li class="header-menu-mobile-iteam-mobile"><a href="#" class="header-menu-link-mobile book-link-mobile">Book Table</a></li>
+                    </ul>
+                </div>
+                <div class="header-menu">
+                    <ul class="header-menu-list">
+                            <li class="header-menu-iteam"><a href="index.html" class="header-menu-link">Home</a></li>
+                            <li class="header-menu-iteam"><a href="menu.html" class="header-menu-link">Menu</a></li>
+                            <li class="header-menu-iteam"><a href="" class="header-menu-link">About</a></li>
+                            <li class="header-menu-iteam"><a href="" class="header-menu-link">Contact</a></li>
+                            <li class="header-menu-iteam"><a href="" class="header-menu-link book-link">Book Table</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="content-hero">
+                <div class="hero-wrapper">
+                    <div class="hero-wrapper-left">
+                        <h1 class="hero-wrapper-title">The flavor of tradition</h1>
+                        <p class="hero-wrapper-para">We are a multi-cuisine restaurant offering a wide variety of food experience in both casual and fine dining environment.</p>
+                        <div class="button-hero">
+                            <a href="#" class=" btn btn-main">Explore Menu</a>
+                            <a href="#" class="btn btn-second">Book Table</a>
+                        </div>
+                    </div>
+                    <div class="hero-wrapper-right">
+                       <img src="./picture/heroimg.png" alt="" class="header-wrapper-img">
+                    </div>
+                </div>
+            </div>
+            <div class="content-info">
+                <div class="content-info-img">
+                    <div class="content-infos">
+                        <div class="content-info-icon">
+                            <img src="https://d33wubrfki0l68.cloudfront.net/4d9f5ac84201972450cc866ccfee0ae2fb4ad2fe/f4f2e/images/wall-clock-icon.svg" alt="clock" class="content-info-img-icon">
+                        </div>
+                        <h3 class="content-info-hour">10 AM - 7 PM</h3>
+                        <div class="content-info-open">Opening Hour</div>
+                    </div>
+                    <div class="content-infos">
+                        <div class="content-info-icon">
+                            <img src="https://d33wubrfki0l68.cloudfront.net/c98678d730ee777c722aa6fc644e149ba86e74d4/240fe/images/address-icon.svg" alt="clock" class="content-info-img-icon">
+                        </div>
+                        <h3 class="content-info-hour">GEC, Chittagon</h3>
+                        <div class="content-info-open">Address</div>
+                    </div>
+                    <div class="content-infos">
+                        <div class="content-info-icon">
+                            <img src="https://d33wubrfki0l68.cloudfront.net/2d39cf6a442498142bd935a1ca5409ca5869e4be/e52ef/images/phone-icon.svg" alt="clock" class="content-info-img-icon">
+                        </div>
+                        <h3 class="content-info-hour">+880123443</h3>
+                        <div class="content-info-open">Call Now</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-special">
+                <div class="content-wrapper-special">
+                    <div class="content-special-left">
+                        <div class="content-special-iteam">
+                            <div class="content-food-img">
+                                <img src="./picture/food-3.png" alt="food" class="content-special-img-icon">
+                            </div>
+                            <h2 class="content-special-title">Sweet Potato Fries Bowl</h2>
+                            <h3 class="content-special-price">$18</h3>
+                            <div class="content-star-img">
+                                <img src="./picture/3star.png" alt="star" class="content-star-icon">
+                            </div>
+                            <p class="content-special-text">These Sweet Potato Fries bowl are a glorious, messy plate of goodness. Crispy sweet potato fries loaded with lots of fresh summer vegetables and a lime ranch. By adding a seasoning blend with chipotle powder, garlic, and onion, these spicy sweet potato fries are full of flavor.</p>
+                        </div>
+                        <div class="content-special-iteam content-special-iteam-2">
+                            <div class="content-food-img">
+                                <img src="./picture/food-1.png" alt="food" class="content-special-img-icon">
+                            </div>
+                            <h2 class="content-special-title">Vegan Salad bowl</h2>
+                            <h3 class="content-special-price">$18</h3>
+                            <div class="content-star-img">
+                                <img src="./picture/3star.png" alt="star" class="content-star-icon">
+                            </div>
+                            <p class="content-special-text">Vegan salad bowl are immensely satisfying with any combination of whole grains, pulses, noodles, raw or cooked fruits, and veggies all topped off with a delicious sauce or dressing – each bite is an explosion of flavors and textures.</p>
+                        </div>
+                    </div>
+                    <div class="content-special-right">
+                        <h2 class="content-title-right">Our Specials</h2>
+                        <div class="content-text-right">All of our food is prepared daily at our restaurants to ensure the highest quality, freshest meals are delivered to our customers</div>
+                        <div class="content-book-right">
+                            <a href="#" class="content-link-right">Book Table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-top-dishes">
+                <div class="content-child-dishes">
+                    <h2 class="content-dishes-title">Top Dishes</h2>
+                    <div class="content-dishes-list">
+                        <div class="content-dishes-item">
+                            <div class="content-dishes-img">
+                                <img src="./picture/food-1 (1).png" alt="food" class="content-dishes-imgage">
+                            </div>
+                            <div class="content-dishes-info">
+                                <h3 class="content-title-dishes">Vegan Salad bowl</h3>
+                                <h3 class="content-price-dishes">$12</h3>
+                                <div class="content-dishes-img-star">
+                                    <img src="./picture/3star.png" alt="star" class="content-dishes-star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-dishes-item">
+                            <div class="content-dishes-img">
+                                <img src="./picture/food-2.png" alt="food" class="content-dishes-imgage">
+                            </div>
+                            <div class="content-dishes-info">
+                                <h3 class="content-title-dishes">Vegan Pesto Zoodles</h3>
+                                <h3 class="content-price-dishes">$12</h3>
+                                <div class="content-dishes-img-star">
+                                    <img src="./picture/3star.png" alt="star" class="content-dishes-star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-dishes-item">
+                            <div class="content-dishes-img">
+                                <img src="./picture/food-7.png" alt="food" class="content-dishes-imgage">
+                            </div>
+                            <div class="content-dishes-info">
+                                <h3 class="content-title-dishes">Hot Green Bowl</h3>
+                                <h3 class="content-price-dishes">$12</h3>
+                                <div class="content-dishes-img-star">
+                                    <img src="./picture/3star.png" alt="star" class="content-dishes-star">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="content-sales">
+                <div class="content-discout-wrapper">
+                    <div class="content-discout-img">
+                        <img src="./picture/food-5.png" alt="food" class="content-discout-food">
+                        <img src="./picture/food-4.png" alt="food" class="content-discout-food">
+                        <img src="./picture/food-3 (1).png" alt="fodd" class="content-discout-food">
+                    </div>
+                    <div class="content-discout-info">
+                        <h3 class="discout-text">20% OFF</h3>
+                        <h3 class="discout-title">Demo Dish For Discount</h3>
+                        <h3 class="discout-price">
+                            <span class="discout-old-price">$45</span>
+                            <span class="discout-new-price">$35</span>
+                        </h3>
+                        <div class="discout-img-star">
+                            <img src="./picture/3star.png" alt="star" class="discout-icon-star">
+                        </div>
+                        <div class="discout-btn-book">
+                            <a href="#" class="btn-link-book">Book Table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-media">
+                <div class="content-events-media">
+                    <div class="event-media-img-1">
+                        <img src="./picture/eventsmedia1.png" alt="event" class="content-img-1">
+                        <div class="content-media-img-icon">
+                            <a href="#" class="content-link-icon">
+                                <img src="./picture/playicon.svg" alt="play" class="content-media-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="event-media-img-2">
+                        <img src="./picture/eventsmedia2.png" alt="event" class="content-img-2">
+                    </div>
+                </div>
+            </div>
+            <div class="content-events-book">
+                <div class="content-events">
+                    <div class="content-info-event-left">
+                        <div class="content-info-event-item">
+                            <div class="content-info-event-img">
+                                <img src="./picture/event-corporate.png" alt="corporate" class="content-event-img">
+                            </div>
+                            <div class="content-info-event-para">
+                                <h2 class="content-info-event-tile">Corporate Events</h2>
+                                <p class="content-info-event-text">Shaif's Cuisine is the perfect venue for your corporate events. We specialize in private parties.</p>
+                            </div>
+                        </div>
+                        <div class="content-info-event-item">
+                            <div class="content-info-event-img">
+                                <img src="./picture/event-weedings.png" alt="corporate" class="content-event-img">
+                            </div>
+                            <div class="content-info-event-para">
+                                <h2 class="content-info-event-tile">Weddings</h2>
+                                <p class="content-info-event-text">Shaif's Cuisine offers an intimately unique wedding experience set in a spectacular setting that is sophisticated and comfortable.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-info-event-right">
+                        <h2 class="content-event-title-right">Book For Events</h2>
+                        <p class="content-event-text-right">Book your private event or corporate function at Shaif's cuisine to experience a truly unique experience.</p>
+                        <div class="content-btn-event">
+                            <a href="#" class="content-btn-link-btn">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="why-choose-food">
+                <div class="why-choose-container">
+                    <div class="why-choose-wrapper">
+                        <div class="why-choose-left-wrapper">
+                            <h2 class="why-choose-title">Why Choose Our Food</h2>
+                            <p class="why-choose-text">Quality of Service, Food, Ambiance, and Value of Money are the primary elements for choosing a restaurant. Shaif's Cuisine is one of the most exquisite fine-dinning restaurant in Chittagong cities with a captivating view of GEC Hills, perfect ambiance, and scrumptious food.</p>
+                        </div>
+                        <div class="why-choose-right-wrapper">
+                            <div class="why-choose-iteam">
+                                <img src="./picture/whyus-icon1.svg" alt="whyus" class="why-choose-img">
+                                <p class="why-choose-iteam-text">Quality Food</p>
+                            </div>
+                            <div class="why-choose-iteam">
+                                <img src="./picture/whyus-icon2.svg" alt="whyus" class="why-choose-img">
+                                <p class="why-choose-iteam-text">Classical taste</p>
+                            </div>
+                            <div class="why-choose-iteam">
+                                <img src="./picture/whyus-icon3.svg" alt="whyus" class="why-choose-img">
+                                <p class="why-choose-iteam-text">Skilled chef</p>
+                            </div>
+                            <div class="why-choose-iteam">
+                                <img src="./picture/whyus-icon4.svg" alt="whyus" class="why-choose-img">
+                                <p class="why-choose-iteam-text">Best service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="customer-say">
+                <div class="testimonial-content">
+                    <div class="testimonial-wrapper">
+                        <h2 class="testimonial-title">What Our Customers Say</h2>
+                        <div class="testimonial-list-item">
+                            <div class="testimonial-item">
+                                <div class="testimonial-item-img">
+                                    <img src="./picture/testimonial_img1.png" alt="img" class="testimonial-img">
+                                </div>
+                                <div class="testimonial-item-info">
+                                    <div class="testimonial-item-name">Sayed Ahmed</div>
+                                    <div class="testimonial-item-star">
+                                        <img src="./picture/3star.png" alt="star" class="testmonial-item-star-img">
+                                    </div>
+                                    <p class="testimonial-item-text">“Visited Shaif's Cuisine with friends last Sunday. Really lovely meal and very warm welcome – we would recommend this lovely restaurant and will try to go back again”</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="testimonial-item-img">
+                                    <img src="./picture/testimonial_img1.png" class="testimonial-img">
+                                </div>
+                                <div class="testimonial-item-info">
+                                    <div class="testimonial-item-name">Sayed Ahmed</div>
+                                    <div class="testimonial-item-star">
+                                        <img src="./picture/3star.png" alt="star" class="testmonial-item-star-img">
+                                    </div>
+                                    <p class="testimonial-item-text">"from start to finish, lovely experience. Hostess very pleasant, wait staff john was wonderful and attentive, food plentiful and delicious, desserts out of this world"</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item testimonial-item-3">
+                                <div class="testimonial-item-img">
+                                    <img src="./picture/testimonial_img1.png" alt="img" class="testimonial-img">
+                                </div>
+                                <div class="testimonial-item-info">
+                                    <div class="testimonial-item-name">Sayed Ahmed</div>
+                                    <div class="testimonial-item-star">
+                                        <img src="./picture/3star.png" alt="star" class="testmonial-item-star-img">
+                                    </div>
+                                    <p class="testimonial-item-text">“A warm and friendly welcome with fantastic customer service. Always great, tasty food served piping hot- just the way we love it . Would definitely recommend. We have been repeatedly and it's consistently exceeded our expectations"</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item testimonial-item-3">
+                                <div class="testimonial-item-img">
+                                    <img src="./picture/testimonial_img1.png" alt="img" class="testimonial-img">
+                                </div>
+                                <div class="testimonial-item-info">
+                                    <div class="testimonial-item-name">Sayed Ahmed</div>
+                                    <div class="testimonial-item-star">
+                                        <img src="./picture/3star.png" alt="star" class="testmonial-item-star-img">
+                                    </div>
+                                    <p class="testimonial-item-text">“I would just like to say thank you for the excellent service we received in your restaurant last night. Although the place was very busy we still had an excellent time and really appreciated the live entertainment too!“</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-newsletter">
+                <div class="newsletter-wrapper">
+                    <div class="newsletter-info">
+                        <h3 class="newsletter-title">Join Newsletter</h3>
+                        <p class="newsletter-text">Get notified with the latest news and recent offers from the “Shaif's Cuisine”</p>
+                    </div>
+                    <div class="newsletter-form">
+                        <form action="">
+                            <label for="email">
+                                <input type="email" placeholder="Your Email Address" class="newsletter-address">
+                            </label>
+                            <button type="submit" class="newsletter-btn">Join</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-wrapper">
+                <div class="footer-col-1">
+                    <div class="footer-logo">
+                        <img src="./picture/logo.svg" alt="logo" class="footer-logo-img">
+                    </div>
+                    <div class="footer-desc">Fresh and delicious traditional Bangladeshi food to delight the whole family.</div>
+                    <h4 class="footer-social-title">Follow us</h4>
+                    <ul class="footer-icon">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-2">
+                    <h3 class="footer-text-title">Links</h3>
+                    <ul class="footer-text">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Book Table</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3 class="footer-text-title">Supports</h3>
+                    <ul class="footer-text">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Support Center</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3 class="footer-text-title">Contact</h3>
+                    <ul class="footer-text">
+                        <li><a href="#">++880123</a></li>
+                        <li><a href="#">webcifar@gmail.com</a></li>
+                        <li><a href="#">GEC Circle, Chittagong, Bangladesh</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="copy-right">
+            <p class="copy-right-text">© copyright 2021 Shaif's Cuisine | All rights reserved</p>
+        </div>
+    </div>
+</body>
+</html>
+        
+
+
+
+
+
