@@ -80,6 +80,311 @@
     height: 100%;
     width: 100%;
 }
+.content-top-dishes{
+    width: 1349px;
+    height: 282px;
+    padding: 90px 0;
+    
+}
+.content-child-dishes{
+    max-width: 1200px;
+    width: 90%;
+    height: 182px;
+    margin: 0 80px 0 80px;
+}
+.content-dishes-list{
+    height: 147.375px;
+    width: 1200px;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.content-dishes-title{
+    font-family: 'Poppins',sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3b413a;
+    margin-bottom: 20px;
+}
+.content-dishes-item{
+    height: 147.375px;
+    width: 380px;
+    border-radius: 12px;
+    background-color: #d6e5d8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content-dishes-img{
+    width: 151.375px;
+    height: 117.375px;
+    background-color: #d6e5d8;
+}
+.content-dishes-imgage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.content-dishes-info{
+    background-color: #d6e5d8;
+}
+.content-title-dishes{
+    color: #3b413a;
+    font-family: 'Poppins',sans-serif;
+    width: 188px;
+    height: 63px;
+    font-weight: 500;
+    font-size: 24px;
+    background-color: #d6e5d8;
+}
+.content-price-dishes{
+    background-color: #d6e5d8;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #26643b;
+    display: flex;
+}
+.content-dishes-img-star{
+    background-color: #d6e5d8;
+    margin-top: 10px;
+}
+.content-dishes-star{
+    background-color: #d6e5d8;
+}
+.content-top-breakfast{
+    width: 1349px;
+    height: 451px;
+    padding: 100px 0;
+}
+.content-child-breakfast{
+    max-width: 1200px;
+    width: 90%;
+    height: 351px;
+    margin: 0 80px 0 80px;
+}
+.content-breakfast-list{
+    height: 307px;
+    width: 1200px;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-breakfast-title{
+    font-family: 'Poppins',sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3b413a;
+    margin-bottom: 20px;
+}
+.content-breakfast-item{
+    height: 138px;
+    width: 380px;
+    border-radius: 12px;
+    background-color: #d6e5d8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: calc(380px-380px/3);
+}
+.content-breakfast-item-2{
+    margin: 30.5px 0;
+}
+.content-breakfast-img{
+    width: 151px;
+    height: 108px;
+    background-color: #d6e5d8;
+}
+.content-breakfast-imgage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.content-breakfast-info{
+    width: 188px;
+    height: 108px;
+}
+.content-title-breakfast{
+    color: #3b413a;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    background-color: #d6e5d8;
+    margin-bottom: 15px;
+}
+.content-price-breakfast{
+    background-color: #d6e5d8;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #26643b;
+    display: flex;
+}
+.content-breakfast-img-star{
+    background-color: #d6e5d8;
+    margin-top: 10px;
+}
+.content-breakfast-star{
+    background-color: #d6e5d8;
+}
+.content-top-lunch{
+    width: 1349px;
+    height: 451px;
+    padding: 100px 0;
+}
+.content-child-lunch{
+    max-width: 1200px;
+    width: 90%;
+    height: 351px;
+    margin: 0 80px 0 80px;
+}
+.content-lunch-list{
+    height: 307px;
+    width: 1200px;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-lunch-title{
+    font-family: 'Poppins',sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3b413a;
+    margin-bottom: 20px;
+}
+.content-lunch-item{
+    height: 138px;
+    width: 380px;
+    border-radius: 12px;
+    background-color: #d6e5d8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: calc(380px-380px/3);
+}
+.content-lunch-item-2{
+    margin: 30.5px 0;
+}
+.content-lunch-img{
+    width: 151px;
+    height: 108px;
+    background-color: #d6e5d8;
+}
+.content-lunch-imgage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.content-lunch-info{
+    width: 188px;
+    height: 108px;
+}
+.content-title-lunch{
+    color: #3b413a;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    background-color: #d6e5d8;
+    margin-bottom: 15px;
+}
+.content-price-lunch{
+    background-color: #d6e5d8;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #26643b;
+    display: flex;
+}
+.content-lunch-img-star{
+    background-color: #d6e5d8;
+    margin-top: 10px;
+}
+.content-lunch-star{
+    background-color: #d6e5d8;
+}
+.content-top-dinner{
+    width: 1349px;
+    height: 551px;
+    display: flex;
+    align-items: center;
+}
+.content-child-dinner{
+    max-width: 1200px;
+    width: 90%;
+    height: 351px;
+    margin: 0 80px 0 80px;
+}
+.content-dinner-list{
+    height: 307px;
+    width: 1200px;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-dinner-title{
+    font-family: 'Poppins',sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3b413a;
+    margin-bottom: 20px;
+}
+.content-dinner-item{
+    height: 138px;
+    width: 380px;
+    border-radius: 12px;
+    background-color: #d6e5d8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: calc(380px-380px/3);
+}
+.content-dinner-item-2{
+    margin: 30.5px 0;
+}
+.content-dinner-img{
+    width: 151px;
+    height: 108px;
+    background-color: #d6e5d8;
+}
+.content-dinner-imgage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.content-dinner-info{
+    width: 188px;
+    height: 108px;
+}
+.content-title-dinner{
+    color: #3b413a;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    background-color: #d6e5d8;
+    margin-bottom: 15px;
+}
+.content-price-dinner{
+    background-color: #d6e5d8;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #26643b;
+    display: flex;
+}
+.content-dinner-img-star{
+    background-color: #d6e5d8;
+    margin-top: 10px;
+}
+.content-dinner-star{
+    background-color: #d6e5d8;
+}
 .footer{
     width: 100%;
     padding-top: 80px;
