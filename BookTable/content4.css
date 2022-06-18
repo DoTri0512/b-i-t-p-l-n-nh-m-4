@@ -1,0 +1,11 @@
+
+@media only screen and (min-width: 768px) {
+	.form__title {
+		font-size: 3.6rem;
+
+	}
+}
+.form_title{
+    color: var(--black-1);
+    font-weight: 600;
+}
