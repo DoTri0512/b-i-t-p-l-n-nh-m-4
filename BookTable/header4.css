@@ -148,3 +148,46 @@ body{
     background-color: #26643b;
     font-family: 'Poppins',sans-serif;
 }
+/*Tablet*/
+@media only screen and(min-width:740px) and (max-width:1023px){
+    #header__menu-bars{
+        display: block;
+    }
+    .header-menu{
+        display: none;
+    }
+    #header__mobile-menu{
+        width: 80%;
+        display: block;
+    }
+    #header__menu-overlay{
+        display: block;
+    }
+}
+/*Mobile*/
+@media only screen and (max-width:739px){
+    #header__menu-bars{
+        display: block;
+    }
+    .header-menu{
+        display: none;
+    }
+    #header__mobile-menu{
+        display: block;
+        width: 80%;
+    }
+    #header__menu-overlay{
+        display: block;
+    }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
