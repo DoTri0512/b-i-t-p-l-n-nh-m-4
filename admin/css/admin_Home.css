@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://img5.thuthuatphanmem.vn/uploads/2021/11/07/100-hinh-anh-do-an-cute-de-thuong-cuc-dep_113040611.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(128, 128, 128, 0.801);
+}
+.admin__home{
+    border-bottom: 3px solid #333;
+}
+#admin__nav-home{
+    background-color: rgba(128, 128, 128, 0.801) !important;
+}
+.nav-link{
+    color: 	#B0E0E6 !important;
+    font-size: 18px !important;
+    font-family: "Poppins",sans-serif;
+}
+.nav-item{
+    margin-left: 10px;
+}
+
+.nav-item:hover > a{
+    color: 	#87CEFA !important;
+}
+.content__admin-home{
+    width: 100%;
+    height: 89vh;
+    background-color: rgba(128, 128, 128, 0.801);
+}
+.content__admin-img{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.content__admin-img-icon i{
+    color: blue;
+    font-size: 30px;
+}
+.content__admin-img-icon{
+   margin: 0 auto;
+   text-align: center;
+}
+p{
+    font-family: "Poppins",sans-serif;
+    color: #B0E0E6;
+    font-size: 24px;
+    line-height: 2.4rem;
+    text-align: center;
+    margin-top: 100px;
+}
+span{
+    font-size: 24px;
+    font-family: "Poppins",sans-serif;
+    color:#B0E0E6;
+    margin-left: 20px;
+}
