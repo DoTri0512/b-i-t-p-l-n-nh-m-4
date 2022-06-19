@@ -1,0 +1,346 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    src: url(/Text-font/Raleway/Raleway-VariableFont_wght.ttf);
+    font-family: Raleway;
+}
+
+@font-face {
+    font-family: Poppins-1;
+    src: url(/Text-font/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-2;
+    src: url(/Text-font/Poppins/Poppins-SemiBold.ttf);
+}
+
+:root {
+    --green-1: #26643b;
+    --green-2: #a2de96;
+    --lightGreen-1: #d6e5d8;
+    --lightGreen-2: #f5fcf4;
+    --black-1: #3b413a;
+    --black-2: #3f3c3c;
+    --black-3: #5b6359;
+    --white-1: #e8e8e8;
+}
+
+.nav {
+    border: none solid black;
+    height: 86px;
+    background-color: var(--lightGreen-2);
+    padding-top: 20px;
+}
+
+.nav img {
+    margin-left: 124px;
+    float: left;
+}
+
+.img button {
+    background-color: var(--lightGreen-2);
+    border: none;
+}
+
+.box-link {
+    border: none solid black;
+    width: 532px;
+    height: 46px;
+    float: right;
+    margin-left: 575px;
+}
+
+.link a {
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 15px;
+    font-size: 18px;
+    font-family: Poppins-1;
+    color: var(--black-1);
+}
+
+.box-link a:hover {
+    color: var(--green-1);
+}
+
+#book-table {
+    border: 1px solid black;
+    height: 46px;
+    border-radius: 8px;
+    background-color: var(--green-1);
+    font-family: Poppins-1;
+    width: 150px;
+    font-size: 20px;
+    color: var(--white-1);
+    text-align: center;
+}
+
+.link.book-table a {
+    display: inline-block;
+}
+
+.main1 {
+    border: 1px solid var(--lightGreen-2);
+    width: 1446px;
+    height: 450px;
+    background-color: var(--lightGreen-2);
+    padding-top: 50px;
+    display: flex;
+}
+
+.main2 {
+    border: none solid black;
+    width: auto;
+    height: 821px;
+    background-color: var(--lightGreen-2);
+}
+
+.main2-1 {
+    border: none solid black;
+    width: 1200px;
+    height: 685.476px;
+    margin-left: 124px;
+    margin-top: 48px;
+}
+
+.main1-box {
+    border: 1px solid var(--lightGreen-2);
+    width: 100%;
+    height: 202px;
+    margin-left: 120px;
+    margin-top: 35px;
+}
+
+.box1 {
+    border: 1px solid var(--lightGreen-2);
+    height: 202px;
+    width: 200px;
+    float: left;
+    border-radius: 12px;
+    margin-left: 280px;
+    background-color: var(--lightGreen-1);
+}
+
+.box2 {
+    border: 1px solid var(--lightGreen-2);
+    height: 202px;
+    width: 200px;
+    float: left;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: var(--lightGreen-1);
+}
+
+.box3 {
+    border: 1px solid var(--lightGreen-2);
+    height: 202px;
+    width: 200px;
+    float: left;
+    border-radius: 12px;
+    background-color: var(--lightGreen-1);
+}
+
+.text1 {
+    text-align: center;
+    padding-top: 20%;
+}
+
+.text1 h3 {
+    font-size: 18px;
+    font-family: Poppins-1;
+    color: var(--black-1);
+}
+
+.text1 p {
+    font-family: Raleway;
+    font-size: 16px;
+    color: var(--black-2);
+    margin-top: 6px;
+}
+
+.tieude1 {
+    border: none solid black;
+    width: 1200px;
+    height: 36px;
+    margin-left: 124px;
+}
+
+.tieude1 h3 {
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: -11px;
+    color: var(--black-1);
+    font-family: Poppins-2;
+    text-decoration: none solid rgb(59, 65, 58);
+    letter-spacing: 0.5px;
+}
+
+.first-name {
+    border: none solid black;
+    width: 590px;
+    height: 94.3px;
+    float: left;
+}
+
+.first-name h3 {
+    font-size: 18px;
+    font-family: Poppins-1;
+    color: var(--black-2);
+}
+
+.last-name {
+    border: none solid black;
+    width: 590px;
+    height: 94.3px;
+    float: right;
+}
+
+.last-name h3 {
+    font-family: Poppins-1;
+    font-size: 18px;
+    color: var(--black-2);
+}
+
+.email {
+    border: none solid black;
+    width: 590px;
+    height: 94.3px;
+    margin-top: 20px;
+    float: left;
+}
+
+.email h3 {
+    font-size: 18px;
+    font-family: Poppins-1;
+    color: var(--black-2);
+}
+
+.subject {
+    border: none solid black;
+    width: 590px;
+    height: 94.3px;
+    margin-top: 20px;
+    float: right;
+}
+
+.subject h3 {
+    font-size: 18px;
+    font-family: Poppins-1;
+    color: var(--black-2);
+}
+
+.message {
+    border: none solid black;
+    width: 590px;
+    height: 94.3px;
+    margin-top: 20px;
+    float: left;
+}
+
+.message h3 {
+    font-size: 18px;
+    font-family: Poppins-1;
+    color: var(--black-2);
+}
+
+.textbox1 {
+    border: 1px solid var(--lightGreen-2);
+    background-color: var(--lightGreen-1);
+    height: 61.33px;
+    width: 590px;
+    padding: 20px;
+    margin-top: 6px;
+    border-radius: 8px;
+    float: left;
+    font-family: Poppins-1;
+    font-size: 18px;
+}
+
+.textbox2 {
+    border: 1px solid var(--lightGreen-2);
+    background-color: var(--lightGreen-1);
+    width: 590px;
+    height: 61.33px;
+    border-radius: 8px;
+    margin-top: 6px;
+    float: right;
+    font-family: Poppins-1;
+    padding: 20px;
+}
+
+.textbox3 {
+    border: 1px solid var(--lightGreen-2);
+    background-color: var(--lightGreen-1);
+    height: 61.33px;
+    width: 590px;
+    border-radius: 8px;
+    margin-top: 6px;
+    float: left;
+    font-family: Poppins-1;
+    padding: 20px;
+}
+
+.textbox4 {
+    border: 1px solid var(--lightGreen-2);
+    background-color: var(--lightGreen-1);
+    width: 590px;
+    height: 61.33px;
+    border-radius: 8px;
+    margin-top: 6px;
+    float: right;
+    font-family: Poppins-1;
+    padding: 20px;
+}
+
+#message {
+    border: 1px solid var(--lightGreen-2);
+    height: 250px;
+    width: 1200px;
+    border-radius: 8px;
+    margin-top: 6px;
+    padding-top: 20px;
+    resize: vertical;
+    padding-bottom: 200px;
+    padding-left: 20px;
+    display: inline-block;
+    background-color: var(--lightGreen-1);
+    font-family: Poppins-1;
+}
+
+#message::-webkit-scrollbar {
+    display: none;
+}
+
+.button button {
+    border: none;
+    margin-top: 20px;
+    height: 50.4px;
+    width: 135px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: var(--white-1);
+    font-family: Poppins-2;
+    background-color: var(--green-1);
+    letter-spacing: 1px;
+}
+
+.button button:hover {
+    background-color: var(--green-1);
+    color: var(--white-1);
+}
+
+
+/* mobile */
+
+@media only screen and (max-width: 767px) {}
+
+
+/* tablet */
+
+@media only screen and(min-width:767px) and (max-width:1023px) {}

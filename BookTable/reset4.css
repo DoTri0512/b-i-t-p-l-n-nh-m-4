@@ -1,0 +1,39 @@
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0; 
+	box-sizing: border-box;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+div,h1,h2,h3,form,section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+html, button, input, select,textarea {
+    color: #222;
+}
+div,section {
+    display: block;
+
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+}

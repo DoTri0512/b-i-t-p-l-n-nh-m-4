@@ -1,23 +1,26 @@
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
 }
-body{
+
+body {
     background-color: #f5fcf4;
 }
-.header{
+
+.header {
     height: 90px;
-    width: 1349px;
+    width: 1446px;
     max-width: 100%;
     background-color: #f5fcf4;
     display: flex;
     align-items: center;
     margin: 0 auto;
 }
-.header__navbar{
+
+.header__navbar {
     height: 46px;
     width: 90%;
     max-width: 1200px;
@@ -25,119 +28,137 @@ body{
     line-height: 46px;
     margin-top: 5px;
 }
-.header-logo{
+
+.header-logo {
     width: 93px;
     height: 46px;
     float: left;
 }
-.header-logo-img{
+
+.header-logo-img {
     width: 100%;
     height: 100%;
 }
-.header-menu{
+
+.header-menu {
     float: right;
     height: 46px;
-    width: 530px;
-
+    width: 570px;
 }
 
-.header-menu-iteam{
+.header-menu-iteam {
     display: inline-block;
     align-items: center;
 }
 
-.header-menu-iteam:first-child{
+.header-menu-iteam:first-child {
     margin-left: 10px;
 }
-.header-menu-iteam:not(:first-child){
+
+.header-menu-iteam:not(:first-child) {
     margin-left: 30px;
 }
-.header-menu-iteam:not(:last-child):hover > a{
+
+.header-menu-iteam:not(:last-child):hover>a {
     color: #26643b;
 }
-.header-menu-link{
+
+.header-menu a:hover {
+    color: #fff;
+}
+
+.header-menu-link {
     font-size: 18px;
     line-height: 18px;
-    font-weight: 500;
+    font-weight: 500px;
     color: #3f3c3c;
-    font-family: 'Poppins',sans-serif;
+    font-family: Poppins-1;
+    text-decoration: none;
 }
-.book-link{
+
+.book-link {
     text-align: center;
-    display:inline-block;
-    font-size: 18px;
+    display: inline-block;
+    font-size: 20px;
     font-weight: 500;
     color: #fff;
     border-radius: 8px;
     width: 150px;
     height: 45px;
-    padding: 13px 20px;
+    padding: 12px 18px;
     background-color: #26643b;
-    font-family: 'Poppins',sans-serif;
-
+    font-family: Poppins-1;
 }
-#header__menu-bars{
+
+#header__menu-bars {
     color: #3b413a;
     width: 32px;
     height: 30px;
     float: right;
-    display: none;    
+    display: none;
 }
-#header__menu-bars svg{
+
+#header__menu-bars svg {
     width: 30px;
     height: 30px;
 }
-#header__menu-overlay{
+
+#header__menu-overlay {
     position: fixed;
-    top:0;
+    animation: fadeIn ease-in 0.3s;
+    top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.3);
-    /* display: none; */
-    opacity: 0;
-    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
 }
-#header__mobile-menu{
+
+#header__mobile-menu {
     position: fixed;
-    top:0;
+    top: 0;
     bottom: 0;
     right: 0;
-    /* display: none; */
-    opacity: 0;
-    pointer-events: none;
+    display: none;
     background-color: #d6e5d8;
     width: 80%;
+    animation: fadeIn ease-in 0.3s;
 }
-.header-menu-list-mobile{
+
+.header-menu-list-mobile {
     margin-top: 200px;
     float: right;
 }
-.header-menu-mobile-iteam-mobile{
+
+.header-menu-mobile-iteam-mobile {
     text-align: right;
     margin-right: 40px;
 }
-.nav-close-btn{
+
+.nav-close-btn {
     position: absolute;
     color: #666;
     display: block;
-    top:1rem;
+    top: 1rem;
     right: 1rem;
     color: #3b413a;
     width: 32px;
     height: 30px;
 }
-.nav-close-btn svg{
+
+.nav-close-btn svg {
     width: 30px;
     height: 30px;
 }
-.header-menu-link-mobile{
+
+.header-menu-link-mobile {
     font-size: 18px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #3b413a;
     font-weight: 400;
 }
-.book-link-mobile{
+
+.book-link-mobile {
     width: 128px;
     height: 40px;
     font-size: 16px;
@@ -148,67 +169,54 @@ body{
     color: #fff;
     border-radius: 8px;
     background-color: #26643b;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-<<<<<<< HEAD
-=======
+
+
 /*Tablet*/
-@media only screen and (min-width:740px) and (max-width:1023px){
-    #header__menu-bars{
+
+@media only screen and(min-width:740px) and (max-width:1023px) {
+    #header__menu-bars {
         display: block;
     }
-    .header-menu{
+    .header-menu {
         display: none;
     }
-    #header__mobile-menu{
-        opacity: 0;
+    #header__mobile-menu {
         width: 80%;
-        right: -100%;
+        display: block;
     }
-    #header__mobile-menu.active {
-
-        transition: all .3s ease-in;
-        opacity: 1;
-        pointer-events: all;
-        right: 0;
+    #header__menu-overlay {
+        display: block;
     }
-    #header__menu-overlay{
-        opacity: 0;
-    }
-    #header__menu-overlay.active {
-        opacity: 1;
-        pointer-events: all;
-    }
-
 }
+
+
 /*Mobile*/
-@media only screen and (max-width:739px){
-    #header__menu-bars{
+
+@media only screen and (max-width:739px) {
+    #header__menu-bars {
         display: block;
-        
     }
-    .header-menu{
+    .header-menu {
         display: none;
     }
-    #header__mobile-menu{
+    #header__mobile-menu {
+        display: block;
         width: 80%;
-        opacity: 0;
-        right: -100%;
     }
-    #header__mobile-menu.active {
-        opacity: 1;
-        transition: all .3s ease-in;
-        right: 0;
-        pointer-events: all;
-    }
-
-    #header__menu-overlay{
-        opacity: 0;
-    }
-    #header__menu-overlay.active {
-        opacity: 1;
-        pointer-events: all;
+    #header__menu-overlay {
+        display: block;
     }
 }
 
->>>>>>> 0ec69980fb8f6d17d653822e16bb1f49d9f7aa39
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}

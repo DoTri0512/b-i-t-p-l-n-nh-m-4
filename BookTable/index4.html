@@ -21,7 +21,7 @@
         <header class="header">
             <div class="header__navbar">
                 <div class="header-logo">
-                    <a href="index.html"> <img src="./picture4/ (1).svg" alt="logo" class="header-logo-img"></a>
+                    <a href="index.html"><img src="./picture4/logo (1).svg" alt="logo" class="header-logo-img"></a>
                 </div>
                 <div id="header__menu-bars" onclick="openFunction()">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
@@ -58,10 +58,114 @@
             </div>
         </header>
     </div>
-    <div class="content">
-        <h3 class="form_title">Book Table</h3>
-    </div>
-
+    <section id="form" data-aos="fade-up">
+        <div class="container">
+          <h3 class="form-title">Book Table</h3>
+          <div class="form-wrapper">
+            <form method='POST' name='booking'><input type='hidden' name='form-name' value='booking' />
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="First Name" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="Last Name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email" required>
+              </div>
+              <div class="form-group">
+                <label for="tableType">Table Type</label>
+                <select name="Table Type" id="tableType" required>
+                  <option selected disabled>Choose</option>
+                  <option value="small">Small(2 persons)</option>
+                  <option value="medium">Medium(4 persons)</option>
+                  <option value="large">large(6 persons)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="guestNumber">Guest Number</label>
+                <input type="number" id="guestNumber" name="Guest Number" min="1" max="10" required>
+              </div>
+              <div class="form-group">
+                <label for="placement">Placement</label>
+                <select name="Placement" id="placement">
+                  <option selected disabled>Choose</option>
+                  <option value="outdoor">Outdoor</option>
+                  <option value="indoor">Indoor</option>
+                  <option value="rooftop">rooftop</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="Date" required>
+              </div>
+              <div class="form-group">
+                <label for="time">time</label>
+                <input type="time" id="time" name="Time" required>
+              </div>
+              <div class="form-group form-group-full">
+                <label for="note">Note</label>
+                <textarea name="Note" id="note" rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn primary-btn">Book Table</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- End Booking Section -->
+      <!-- Footer -->
+      <footer class="footer">
+          <div class="footer-wrapper">
+            <div class="footer-col-1">
+                <div class="footer-logo">
+                    <img src="./picture/logo.svg" alt="logo" class="footer-logo-img">
+                </div>
+                <div class="footer-desc">Fresh and delicious traditional Bangladeshi food to delight the whole family.</div>
+                <h4 class="footer-social-title">Follow us</h4>
+                <ul class="footer-icon">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-col-2">
+              <h3 class="footer-text-title">Links</h3>
+              <ol class="footer-text">
+                <li><a href='/'>Home</a></li>
+                <li><a href='/menu'>Menu</a></li>
+                <li><a href='/booking'>Book Table</a></li>
+                <li><a href='/about'>About Us</a></li>
+                <li><a href='/contact'>contact Us</a></li>
+                <li><a href="#">Privacy Policy</a>
+                </li>
+              </ol>
+            </div>
+            <div class="footer-col3">
+              <h3 class="footer-text-title">Support</h3>
+              <ol class="footer-text">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Support Center</a></li>
+                <li><a href="#">Feedback</a></li>
+              </ol>
+            </div>
+            <div class="footer-col-4">
+              <h3 class="footer-text-title">Contact</h3>
+              <ol class="footer-text">
+                <li><a href="#">+880123</a></li>
+                <li><a href="#">webcifar@gmail.com</a></li>
+                <li><a href="#">GEC Circle, Chittagong, Bangladesh</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="copyright">
+        <p class="copyright-text">© copyright 2021 Shaif’s Cuisine | All rights reserved</p>
+    </body>
+    
+    </html>
 
     </body>
     </html>
