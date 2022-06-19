@@ -117,6 +117,7 @@
     font-size: 18px;
     font-weight: 550;
     text-decoration: none;
+    margin-left: 1.8rem;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -129,7 +130,7 @@
 }
 
 .footer-col-3 .footer-text li {
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.5rem 0;
 }
 
 .footer-col-3 .footer-text li a {
@@ -138,6 +139,7 @@
     font-size: 18px;
     font-weight: 550;
     text-decoration: none;
+    margin-left: 1.8rem;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -150,17 +152,23 @@
 }
 
 .footer-col-4 .footer-text li {
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.5rem 0;
 }
 
 .footer-col-4 .footer-text li a {
     color: #3f3c3c;
     font-family: Raleway;
     font-size: 18px;
-    font-weight: 550;
+    font-weight: 500;
     line-height: 1.4rem;
     text-decoration: none;
+    margin-left: 1.8rem;
     font-family: 'Raleway', sans-serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
 }
 
 .copy-right {
