@@ -43,7 +43,7 @@ body {
 .header-menu {
     float: right;
     height: 46px;
-    width: 570px;
+    width: 530px;
 }
 
 .header-menu-iteam {
@@ -67,25 +67,28 @@ body {
     color: #fff;
 }
 
+.header-menu-list li a {
+    text-decoration: none;
+}
+
 .header-menu-link {
     font-size: 18px;
     line-height: 18px;
-    font-weight: 500px;
+    font-weight: 500;
     color: #3f3c3c;
     font-family: Poppins-1;
-    text-decoration: none;
 }
 
 .book-link {
     text-align: center;
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: #fff;
     border-radius: 8px;
     width: 150px;
     height: 45px;
-    padding: 12px 18px;
+    padding: 13px 20px;
     background-color: #26643b;
     font-family: Poppins-1;
 }
@@ -105,13 +108,14 @@ body {
 
 #header__menu-overlay {
     position: fixed;
-    animation: fadeIn ease-in 0.3s;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.3);
-    display: none;
+    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
 }
 
 #header__mobile-menu {
@@ -119,10 +123,11 @@ body {
     top: 0;
     bottom: 0;
     right: 0;
-    display: none;
+    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
     background-color: #d6e5d8;
     width: 80%;
-    animation: fadeIn ease-in 0.3s;
 }
 
 .header-menu-list-mobile {
@@ -173,9 +178,13 @@ body {
 }
 
 
+/* <<<<<<< HEAD
+======= */
+
+
 /*Tablet*/
 
-@media only screen and(min-width:740px) and (max-width:1023px) {
+@media only screen and (min-width:740px) and (max-width:1023px) {
     #header__menu-bars {
         display: block;
     }
@@ -183,11 +192,22 @@ body {
         display: none;
     }
     #header__mobile-menu {
+        opacity: 0;
         width: 80%;
-        display: block;
+        right: -100%;
+    }
+    #header__mobile-menu.active {
+        transition: all .3s ease-in;
+        opacity: 1;
+        pointer-events: all;
+        right: 0;
     }
     #header__menu-overlay {
-        display: block;
+        opacity: 0;
+    }
+    #header__menu-overlay.active {
+        opacity: 1;
+        pointer-events: all;
     }
 }
 
@@ -202,21 +222,21 @@ body {
         display: none;
     }
     #header__mobile-menu {
-        display: block;
         width: 80%;
+        opacity: 0;
+        right: -100%;
+    }
+    #header__mobile-menu.active {
+        opacity: 1;
+        transition: all .3s ease-in;
+        right: 0;
+        pointer-events: all;
     }
     #header__menu-overlay {
-        display: block;
-    }
-}
-
-@keyframes fadeIn {
-    from {
         opacity: 0;
-        transform: translateX(100%);
     }
-    to {
+    #header__menu-overlay.active {
         opacity: 1;
-        transform: translateX(0%);
+        pointer-events: all;
     }
 }
