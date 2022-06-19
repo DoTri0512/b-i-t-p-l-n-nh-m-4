@@ -1,0 +1,43 @@
+.container{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: var(--lightGreen-2);
+}
+img{
+    vertical-align: middle;
+}
+img{
+    width: 584px;
+    height: 412px;
+    object-fit: contain;
+}
+:root{
+    --green-1: #26643b;
+    --green-2: #a2de96;
+    --lightGreen-1: #d6e5d8;
+    --lightGreen-2: #f5fcf4;
+    --black-1: #3b413a;
+    --black-2: #3f3c3c;
+    --black-3: #5b6359;
+    --white-1: #e8e8e8;
+}
+
+.menu{
+    border: none solid black;
+    width: auto;
+    height: 500px;
+    background-color: var(--lightGreen-2);
+}
+.text{
+    border: none solid black;
+    width: 450px;
+    height: 500px;
+    float: left;
+}
+.ourStory_img{
+    border: 1px solid black;
+    width: 585px;
+    float: left;
+}

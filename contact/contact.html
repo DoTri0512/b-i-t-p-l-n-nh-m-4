@@ -23,7 +23,7 @@
     <header class="header">
         <div class="header__navbar">
             <div class="header-logo">
-                <a href="index.html"> <img src="https://d33wubrfki0l68.cloudfront.net/5509abae36c9c1c7d55a83ea5a1990f0d3b09c0a/12a1e/images/logo.svg" alt="logo" class="header-logo-img"></a>
+                <a href="contact.html"> <img src="https://d33wubrfki0l68.cloudfront.net/5509abae36c9c1c7d55a83ea5a1990f0d3b09c0a/12a1e/images/logo.svg" alt="logo" class="header-logo-img"></a>
             </div>
             <div id="header__menu-bars" onclick="openFunction()">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
@@ -44,7 +44,7 @@
                     <li class="header-menu-mobile-iteam-mobile"><a href="index.html" class="header-menu-link-mobile">Home</a></li>
                     <li class="header-menu-mobile-iteam-mobile"><a href="menu.html" class="header-menu-link-mobile">Menu</a></li>
                     <li class="header-menu-mobile-iteam-mobile"><a href="" class="header-menu-link-mobile">About</a></li>
-                    <li class="header-menu-mobile-iteam-mobile"><a href="" class="header-menu-link-mobile">Contact</a></li>
+                    <li class="header-menu-mobile-iteam-mobile"><a href="contact.html" class="header-menu-link-mobile">Contact</a></li>
                     <li class="header-menu-mobile-iteam-mobile"><a href="#" class="header-menu-link-mobile book-link-mobile">Book Table</a></li>
                 </ul>
             </div>
@@ -53,7 +53,7 @@
                     <li class="header-menu-iteam"><a href="index.html" class="header-menu-link">Home</a></li>
                     <li class="header-menu-iteam"><a href="menu.html" class="header-menu-link">Menu</a></li>
                     <li class="header-menu-iteam"><a href="" class="header-menu-link">About</a></li>
-                    <li class="header-menu-iteam"><a href="" class="header-menu-link">Contact</a></li>
+                    <li class="header-menu-iteam"><a href="contact.html" class="header-menu-link">Contact</a></li>
                     <li class="header-menu-iteam"><a href="" class="header-menu-link book-link">Book Table</a></li>
                 </ul>
             </div>
@@ -98,36 +98,34 @@
         <div class="tieude1">
             <h3>Contact & Inquiry</h3>
         </div>
-        <div class="main2-1">
+        <form class="main2-1" id="contact-form">
             <div class="first-name">
                 <label for="fn "><h3>First Name</h3></label>
 
-                <input type="text" class="textbox1">
+                <input type="text" class="textbox1" required>
             </div>
             <div class="last-name">
                 <label for="ln"><h3>Last Name</h3></label>
 
-                <input type="text" class="textbox2">
+                <input type="text" class="textbox2" required>
             </div>
             <div class="email">
                 <label for="email"><h3>Email</h3></label>
-                <input type="text" class="textbox3">
+                <input type="email" class="textbox3" required>
             </div>
             <div class="subject">
                 <label for="sj"><h3>Subject </h3></label>
-                <input type="text" class="textbox4">
+                <input type="text" class="textbox4" required>
             </div>
             <div class="message">
                 <label for="mess"><h3>Message</h3></label><br>
-                <!-- <input type="text" class="textbox5"> -->
-                <textarea name="Message" id="message" cols="30" rows="10"></textarea>
+                <textarea required name="Message" id="message" cols="30" rows="10"></textarea>
                 <div class="button">
                     <button type="submit" class="btn btn-success">Send</button>
-                    <!-- <button>Send</button> -->
                 </div>
             </div>
 
-        </div>
+        </form>
     </div>
     <!-- Kết thúc form Contact -->
     <!-- Bắt đầu footer  -->
@@ -178,6 +176,7 @@
         <p class="copy-right-text">© copyright 2021 Shaif's Cuisine | All rights reserved</p>
     </div>
     <!-- Kết thúc footer  -->
+    <script src="./js/contact.js"></script>
 </body>
 
 </html>
