@@ -52,3 +52,11 @@ body {
     color: #007067;
     font-family: Poppins-2;
 }
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline orange;
+}
