@@ -180,9 +180,12 @@
             <div class="content-sales aos-init" data-aos="fade-up">
                 <div class="content-discout-wrapper">
                     <div class="content-discout-img">
-                        <img src="./picture/food-5.png" alt="food" class="content-discout-food">
-                        <img src="./picture/food-4.png" alt="food" class="content-discout-food">
-                        <img src="./picture/food-3 (1).png" alt="fodd" class="content-discout-food">
+                        <span class="content-discout-food"><img src="./picture/food-5.png" alt="food" ></span>
+                        <span class="content-discout-food"><img src="./picture/food-4.png" alt="food" ></span>
+                        <span class="content-discout-food hide"><img src="./picture/food-3.png" alt="food" ></span>
+                        
+                        <!-- <img src="./picture/food-4.png" alt="food" class="content-discout-food">
+                        <img src="./picture/food-3 (1).png " alt="fodd" class="content-discout-food hide"> -->
                     </div>
                     <div class="content-discout-info">
                         <h3 class="discout-text">20% OFF</h3>
@@ -200,6 +203,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="content-media aos-init" data-aos="fade-up">
                 <div class="content-events-media">
                     <div class="event-media-img-1">
@@ -215,6 +219,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="content-events-book aos-init" data-aos="fade-up">
                 <div class="content-events">
                     <div class="content-info-event-left">
@@ -246,6 +251,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="why-choose-food">
                 <div class="why-choose-container">
                     <div class="why-choose-wrapper">
@@ -274,6 +280,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="customer-say aos-init" data-aos="fade-up">
                 <div class="testimonial-content">
                     <div class="testimonial-wrapper">
@@ -337,14 +344,10 @@
                         <h3 class="newsletter-title">Join Newsletter</h3>
                         <p class="newsletter-text">Get notified with the latest news and recent offers from the “Shaif's Cuisine”</p>
                     </div>
-                    <div class="newsletter-form">
-                        <form action="">
-                            <label for="email">
-                                <input type="email" placeholder="Your Email Address" class="newsletter-address">
-                            </label>
-                            <button type="submit" class="newsletter-btn">Join</button>
-                        </form>
-                    </div>
+                    <form class="newsletter-form" id="submitt">
+                        <input type="email" placeholder="Your Email Address" required class="newsletter-address">
+                        <button type="submit" class="newsletter-btn">Join</button>
+                    </form>
                 </div>
             </div>
         </div>

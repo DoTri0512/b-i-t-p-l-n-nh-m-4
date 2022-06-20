@@ -1,3 +1,6 @@
+.hide {
+    display: none;
+}
 @media only screen and (max-width:739px){
     .content-hero{
         width: 100%;
@@ -193,41 +196,140 @@
     }
     .content-top-dishes{
         width: 100%;
-        height:1039px;
+        height:365px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
     }
     .content-child-dishes{
-        width:900px;
-        height: 600px;
-        background-color: red;
+        width:658px;
+        height: 260px;
+        max-width: 90%;
+        height: auto;
     }
     .content-dishes-list{
-        height: 600px;
-        width: 900px;
+        height: 225px;
+        width: 658px;
+        max-width: 100%;
         margin-top: 18px;
         display: flex;
-        justify-content: flex-start;
-        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-between;
     }
     .content-dishes-title{
         font-family: 'Poppins',sans-serif;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 600;
         color: #3b413a;
     }
     .content-dishes-item{
-        height: 150px;
-        width: 700px;
+        height: 224px;
+        width: 32%;
         border-radius: 12px;
-        background-color: #d6e5d8;
         display: flex;
+        height: auto;
+        flex-direction: column;
     }
     .content-dishes-img{
-        width: 151.375px;
-        height: 117.375px;
-        background-color: #d6e5d8;
+        width: 90%;
+        height: auto;
+    }
+    .content-dishes-imgage{
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    .content-dishes-info{
+        width:200px;
+        max-width: 90%;
+        height: auto;
+    }
+    .content-title-dishes{
+        font-size: 14px;
+        height: 18px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+    .content-price-dishes{
+        font-size: 14px;
+        color: #26643b;
+        max-width: 100%;
+        height: auto;
+    }
+    .content-dishes-img-star{
+       height: auto;
     }
 
+
+    /* content-discount / content-sales */
+
+    .content-discout-wrapper {
+        flex-direction: column;
+    }
+    .content-discout-info {
+        align-self: flex-start;
+    }
+    .discout-text {
+        font-size: 24px;
+    }
+    .discout-title {
+        font-size: 24px;
+    }
+    .discout-price {
+        font-size: 18px;
+    }
+    /*  */
+ 
+    /*content-events-book  */
+    .content-events {
+        flex-direction: column;
+    }
+    /*  */
+
+    /*why-choose-food  */
+    .why-choose-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .why-choose-left-wrapper {
+        align-self: center;
+        flex:1;
+        text-align: center;
+    }
+    .why-choose-right-wrapper {
+        align-self: center;
+        flex:1;
+        text-align: center;
+    }
+    /*  */
+    /* content-newsletter */
+    .newsletter-wrapper {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .newsletter-info,.newsletter-form {
+        width: 100%;
+    }
+    .newsletter-text {
+        max-width: 100%;
+    }
+    .newsletter-address {
+        width: 80%;
+    }
+    .newsletter-btn {
+        width: 20%;
+    }
+    /*  */
+    /* footer */
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .footer-col-2 {
+        margin-top: 30px;
+    }
 }
 @media only screen and (max-width:600px){
     .content-info{
@@ -251,9 +353,80 @@
         height: 123px;
         margin: 10px 0;
     }
+    .content-top-dishes{
+        width: 100%;
+        height:593px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .content-child-dishes{
+        height: 493px;
+        width: 434px;
+        max-width: 90%;
+        height: auto;
+    }
+    .content-dishes-list{
+        height: 225px;
+        width: 434px;
+        max-width: 100%;
+        margin-top: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: flex-start;
+    }
+    .content-dishes-title{
+        font-family: 'Poppins',sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #3b413a;
+    }
+    .content-dishes-item{
+        height: 224px;
+        width: 45%;
+        border-radius: 12px;
+        display: flex;
+        height: auto;
+        margin: 10px 5px;
+        flex-direction: column;
+    }
+    .content-dishes-img{
+        width: 95%;
+        height: auto;
+        margin-top: 3px;
+    }
+    .content-dishes-imgage{
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    .content-dishes-info{
+        width:200px;
+        max-width: 90%;
+        height: auto;
+    }
+    .content-title-dishes{
+        font-size: 14px;
+        height: 18px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+    .content-price-dishes{
+        font-size: 14px;
+        color: #26643b;
+        max-width: 100%;
+        height: auto;
+    }
+    .content-dishes-img-star{
+       height: auto;
+    }
     
 }
-@media only screen and (min-width:739px) and (max-width:1023px){
+@media only screen and (min-width:740px) and (max-width:1023px){
     .content-hero{
         width: 100%;
         height: 653px;
@@ -421,7 +594,10 @@
     }
 
 }
-@media  only screen and (min-width:1024px)  and (max-width:1200px){
+@media  only screen and (min-width:1024px) and (max-width:1300px)  {
+    .hide {
+        display: block;
+    }
     .content-top-dishes{
         height: 700px;
         
@@ -444,6 +620,7 @@
     .content-dishes-item{
         height: 147.375px;
         width: 380px;
+        max-width: 100%;
         display: flex;
         margin: 0 10px;
         align-items: center;
@@ -458,4 +635,5 @@
         color: #3b413a;
         width: 100%;
     }
+    
 }

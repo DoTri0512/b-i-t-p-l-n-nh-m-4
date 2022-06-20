@@ -1,26 +1,23 @@
+*{
+    box-sizing: border-box;
+}
 .content__page-title{
-    width: 1349px;
-    height: 116px;
-    display: flex;
-    align-items: center;
+    width: 100%;
+    line-height: 100px;
 }
 .content__page-title-text{
-    width: 90%;
-    max-width: 1200px;
-    height: 36px;
-    margin: 0 82px 0 82px;
+    width: 89%;
     font-family: 'Poppins',sans-serif;
     font-size: 36px;
     color: #3b413a;
+    margin: 0 auto;
 }
 .content__ourSpecial{
-    width: 1349px;
-    height: 322px;
+    width: 100%;
 }
 .container-special{
-    width: 1200px;
-    height: 322px;
-    margin: 0 80px 0 80px;
+    width: 89%;
+    margin: 0 auto;
 }
 .ourSpecial-title{
     font-family: "Poppins",sans-serif;
@@ -29,24 +26,23 @@
     margin-bottom: 20px;
 }
 .ourSpecial-list-item{
-    width: 1200px;
-    height: 278px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-
+    gap:20px;
 }
 .ourSpecial-item{
     width: 590px;
-    height: 278px;
     background-color: #d6e5d8;
     border-radius: 12px;
     display: flex;
+    flex-direction: row;
     padding: 30px;
-    justify-content: space-between;
+    gap:20px;
+}
+.ourSpecial-item-2{
 }
 .ourSpecial-item-img{
-    width: 291px;
-    height: 218px;
+    flex:1;
 }
 .ourSpecial-icon-img{
     width: 100%;
@@ -55,8 +51,7 @@
     border-radius: 12px;
 }
 .ourSpecial-item-info{
-    width: 218px;
-    height: 218px;
+    flex: 1;
 }
 .ourSpecial-item-title{
     font-family: "Poppins",sans-serif;
@@ -81,23 +76,20 @@
     width: 100%;
 }
 .content-top-dishes{
-    width: 1349px;
-    height: 282px;
+    width: 100%;
     padding: 90px 0;
     
 }
 .content-child-dishes{
-    max-width: 1200px;
-    width: 90%;
-    height: 182px;
-    margin: 0 80px 0 80px;
+    width: 89%;
+    margin: 0 auto;
 }
 .content-dishes-list{
-    height: 147.375px;
-    width: 1200px;
+    width: 100%;
     margin-top: 18px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .content-dishes-title{
     font-family: 'Poppins',sans-serif;
@@ -107,70 +99,62 @@
     margin-bottom: 20px;
 }
 .content-dishes-item{
-    height: 147.375px;
+    width: 30%;
     width: 380px;
+    height: auto;
     border-radius: 12px;
     background-color: #d6e5d8;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    padding: 15px 15px;
+    gap: 10px;
+}
+.content-dishes-item-1{
+    flex: 1;
+}
+.content-dishes-item-2{
+    flex: 1;
 }
 .content-dishes-img{
-    width: 151.375px;
-    height: 117.375px;
-    background-color: #d6e5d8;
+    width: 42%;
 }
 .content-dishes-imgage{
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 12px;
 }
-.content-dishes-info{
-    background-color: #d6e5d8;
-}
 .content-title-dishes{
     color: #3b413a;
-    font-family: 'Poppins',sans-serif;
     width: 188px;
-    height: 63px;
+    font-family: 'Poppins',sans-serif;
     font-weight: 500;
     font-size: 24px;
-    background-color: #d6e5d8;
+    margin-bottom: 10px;
 }
 .content-price-dishes{
-    background-color: #d6e5d8;
     font-family: 'Poppins',sans-serif;
     font-weight: 600;
     font-size: 20px;
     color: #26643b;
-    display: flex;
 }
 .content-dishes-img-star{
-    background-color: #d6e5d8;
     margin-top: 10px;
 }
-.content-dishes-star{
-    background-color: #d6e5d8;
-}
 .content-top-breakfast{
-    width: 1349px;
-    height: 451px;
-    padding: 100px 0;
+    width: 100%;
 }
 .content-child-breakfast{
-    max-width: 1200px;
-    width: 90%;
-    height: 351px;
-    margin: 0 80px 0 80px;
+    width: 89%;
+    margin: 0 auto;
 }
 .content-breakfast-list{
-    height: 307px;
-    width: 1200px;
+    width: 100%;
     margin-top: 18px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    background-color: red;
 }
 .content-breakfast-title{
     font-family: 'Poppins',sans-serif;
@@ -178,34 +162,41 @@
     font-weight: 600;
     color: #3b413a;
     margin-bottom: 20px;
+    gap: 30px;
 }
 .content-breakfast-item{
-    height: 138px;
-    width: 380px;
+    height: auto;
     border-radius: 12px;
     background-color: #d6e5d8;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: calc(380px-380px/3);
+    padding: 15px 15px;
+    gap:10px;
+}
+.content-breakfast-item-1{
+    width: 32%;
 }
 .content-breakfast-item-2{
-    margin: 30.5px 0;
+    width: 31%;
+}
+.content-breakfast-item-3{
+    width: 31%;
+    flex: 1;
+}
+.content-breakfast-item-4{
+    width: 32%;
+}
+.content-breakfast-item-5{
+    width: 31%;
 }
 .content-breakfast-img{
-    width: 151px;
-    height: 108px;
+    width: 42%;
     background-color: #d6e5d8;
 }
 .content-breakfast-imgage{
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 12px;
-}
-.content-breakfast-info{
-    width: 188px;
-    height: 108px;
 }
 .content-title-breakfast{
     color: #3b413a;
@@ -224,30 +215,24 @@
     display: flex;
 }
 .content-breakfast-img-star{
-    background-color: #d6e5d8;
+    height: auto;
     margin-top: 10px;
 }
-.content-breakfast-star{
-    background-color: #d6e5d8;
-}
 .content-top-lunch{
-    width: 1349px;
-    height: 451px;
+    width: 100%;
     padding: 100px 0;
 }
 .content-child-lunch{
-    max-width: 1200px;
-    width: 90%;
-    height: 351px;
-    margin: 0 80px 0 80px;
+    width: 89%;
+    margin: 0 auto;
 }
 .content-lunch-list{
-    height: 307px;
-    width: 1200px;
+    width: 100%;
     margin-top: 18px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 30px;
+    background-color: red;
 }
 .content-lunch-title{
     font-family: 'Poppins',sans-serif;
@@ -257,21 +242,32 @@
     margin-bottom: 20px;
 }
 .content-lunch-item{
-    height: 138px;
-    width: 380px;
+    width: 30%;
+    height: auto;
     border-radius: 12px;
     background-color: #d6e5d8;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: calc(380px-380px/3);
+    padding: 15px 15px;
+    gap: 10px;
+}
+.content-lunch-item-1{
+    width: 32%;
 }
 .content-lunch-item-2{
-    margin: 30.5px 0;
+    width: 31%;
+}
+.content-lunch-item-3{
+    width: 31%;
+    flex: 1;
+}
+.content-lunch-item-4{
+    width: 32%;
+}
+.content-lunch-item-5{
+    width: 31%;
 }
 .content-lunch-img{
-    width: 151px;
-    height: 108px;
+    width: 42%;
     background-color: #d6e5d8;
 }
 .content-lunch-imgage{
@@ -279,10 +275,6 @@
     height: 100%;
     object-fit: cover;
     border-radius: 12px;
-}
-.content-lunch-info{
-    width: 188px;
-    height: 108px;
 }
 .content-title-lunch{
     color: #3b413a;
@@ -304,28 +296,22 @@
     background-color: #d6e5d8;
     margin-top: 10px;
 }
-.content-lunch-star{
-    background-color: #d6e5d8;
-}
 .content-top-dinner{
-    width: 1349px;
-    height: 551px;
-    display: flex;
-    align-items: center;
+    width: 100%;
+    padding: 0 0 100px 0;
 }
 .content-child-dinner{
-    max-width: 1200px;
-    width: 90%;
-    height: 351px;
-    margin: 0 80px 0 80px;
+    width: 89%;
+    margin: 0 auto;
 }
 .content-dinner-list{
-    height: 307px;
-    width: 1200px;
+    height: auto;
+    width: 100%;
     margin-top: 18px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 30px;
+    background-color: red;
 }
 .content-dinner-title{
     font-family: 'Poppins',sans-serif;
@@ -335,21 +321,32 @@
     margin-bottom: 20px;
 }
 .content-dinner-item{
-    height: 138px;
-    width: 380px;
+    height: auto;
+    width: 32%;
     border-radius: 12px;
     background-color: #d6e5d8;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: calc(380px-380px/3);
+    padding: 15px 15px;
+    gap: 10px;
+}
+.content-dinner-item-1{
+    width: 32%;
 }
 .content-dinner-item-2{
-    margin: 30.5px 0;
+    width: 31%;
+}
+.content-dinner-item-3{
+    width: 31%;
+    flex: 1;
+}
+.content-dinner-item-4{
+    width: 32%;
+}
+.content-dinner-item-5{
+    width: 31%;
 }
 .content-dinner-img{
-    width: 151px;
-    height: 108px;
+    width: 42%;
     background-color: #d6e5d8;
 }
 .content-dinner-imgage{
@@ -357,10 +354,6 @@
     height: 100%;
     object-fit: cover;
     border-radius: 12px;
-}
-.content-dinner-info{
-    width: 188px;
-    height: 108px;
 }
 .content-title-dinner{
     color: #3b413a;
@@ -389,15 +382,12 @@
     width: 100%;
     padding-top: 80px;
     padding-bottom: 40px;
-    height: 378px;
     background-color: #d6e5d8;
     display: flex;
     align-items: center;
 }
 .footer-wrapper{
-    max-width: 1200px;
     width: 90%;
-    height:258px;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
