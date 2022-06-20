@@ -1,39 +1,94 @@
-
 *,
 *::before,
 *::after {
 	padding: 0;
-	margin: 0; 
+	margin: 0;
 	box-sizing: border-box;
 }
-html {
-    -webkit-text-size-adjust: 100%;
+:root {
+    --green-1: #26643b;
+    --green-2: #a2de96;
+    --lightGreen-1: #d6e5d8;
+    --lightGreen-2: #f5fcf4;
+    --black-1: #3b413a;
+    --black-2: #3f3c3c;
+    --black-3: #5b6359;
+    --white-1: #e8e8e8;
+}
+h3,
+p,
+a,
+ul,
+li,
+form,
+label,
+section
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+:focus {
+	outline: 0;
+}
+footer,
+header,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+textarea {
+	overflow: auto;
+	vertical-align: top;
+	resize: vertical;
 }
 ::selection {
     background: #b3d4fc;
     text-shadow: none;
 }
-div,h1,h2,h3,form,section {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+html {
+	font-size: 100%; /* 1 */
 }
-html, button, input, select,textarea {
-    color: #222;
+form {
+	margin: 0;
 }
-div,section {
-    display: block;
-
+button,
+input,
+select,
+textarea {
+	font-size: 100%; /* 1 */
+	margin: 0; /* 2 */
+	vertical-align: baseline; /* 3 */
 }
-button, input {
-    line-height: normal;
+button,
+input {
+	line-height: normal;
 }
-button, input, select, textarea {
-    font-size: 100%;
-    margin: 0;
-    vertical-align: baseline;
-    *vertical-align: middle;
+button,
+select {
+	text-transform: none;
 }
+textarea {
+	overflow: auto; /* 1 */
+	vertical-align: top; /* 2 */
+    resize: vertical;
+}
+html,
+button,
+input,
+select,
+textarea {
+	color: #222;
+}
+textarea {
+	overflow: auto; /* 1 */
+	vertical-align: top; /* 2 */
+}
+/* textarea {
+	resize: vertical;
+} */
