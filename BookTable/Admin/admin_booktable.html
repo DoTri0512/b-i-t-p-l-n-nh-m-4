@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/admin_Booktable.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;family=Raleway:wght@500;500;600&amp;display=swap');
+    </style>
+</head>
+<body>
+    <div class="admin__home">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="admin__nav-home">
+            <a class="navbar-brand" href="">
+                <img src="./logo (1).svg" alt="logo" class="admin__logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Book Table</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                    </li>      
+                </ul>
+            </div>  
+          </nav>
+    </div>
+    <div id="admin-booktable">
+        <form action="" id="form-booktable">
+            <div id="lable_form">
+                <h2 class="form_name">Danh sách đặt bàn</h3>
+            </div>
+            <table class="admin-table" >
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Table Type</th>
+                    <th>Guest Number</th>
+                    <th>Placement</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Note</th>
+                </tr>
+                <tr>
+                    <td>Cấn</td>
+                    <td>Dương</td>
+                    <td>canduong@gmail.com</td>
+                    <td>small(2 persons)</td>
+                    <td>2</td>
+                    <td>Outdoor</td>
+                    <td>22/6/2022</td>
+                    <td>10:50 SA</td>
+                    <td>Bàn sạch</td>
+                </tr>
+                <tr>
+                    <td>Đỗ</td>
+                    <td>Trí</td>
+                    <td>docaotri@gmail.com</td>
+                    <td>Medium(4 persons)</td>
+                    <td>4</td>
+                    <td>Indoor</td>
+                    <td>22/6/2022</td>
+                    <td>07:04 CH</td>
+                    <td>Trống trước 5p</td>
+                </tr>
+                <tr>
+                    <td>Nguyễn </td>
+                    <td>Tùng</td>
+                    <td>nguyentung@gmail.com</td>
+                    <td>small(2 persons)</td>
+                    <td>4</td>
+                    <td>Outdoor</td>
+                    <td>06/10/2002</td>
+                    <td>10:50 SA</td>
+                    <td>Làm việc</td>
+                </tr>
+                <tr>
+                    <td>Nguyễn</td>
+                    <td>Anh</td>
+                    <td>nguyenkyanh@gmail.com</td>
+                    <td>small(2 persons)</td>
+                    <td>4</td>
+                    <td>Outdoor</td>
+                    <td>06/10/2002</td>
+                    <td>10:50 SA</td>
+                    <td>Cầu hôn</td>
+                </tr>
+            </table>
+            <div class="button">
+                <button class="btn btn_add">Thêm</button>
+                <button class="btn btn_edit">Sửa</button>
+                <button class="btn btn_del">Xóa</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

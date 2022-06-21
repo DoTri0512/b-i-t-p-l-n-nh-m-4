@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://tronhouse.com/assets/data/editor/source/10-tips-chup-anh-mon-an-trong-ngon-mat-va-hap-dan-nhat/chu%CC%A3p-a%CC%89nh2-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(128, 128, 128, 0.801);
+}
+#admin-booktable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+#form-booktable{
+    background-color:rgba(169, 169, 169, 0.714);
+    box-shadow:25px 25px #fff;
+    max-width: 100%;
+    padding: 40px 40px 40px;
+    border-radius: 12px;
+    flex-grow: 1;
+    text-align: center;
+    padding: 10%;
+}
+.admin__home{
+    border-bottom: 3px solid #333;
+}
+#admin__nav-home{
+    background-color: rgba(128, 128, 128, 0.801) !important;
+}
+.nav-link{
+    color: 	#B0E0E6 !important;
+    font-size: 18px !important;
+    font-family: "Poppins",sans-serif;
+}
+.nav-item{
+    margin-left: 10px;
+}
+
+.nav-item:hover > a{
+    color: 	#87CEFA !important;
+}
+span{
+    font-size: 24px;
+    font-family: "Poppins",sans-serif;
+    color:#B0E0E6;
+    margin-left: 20px;
+}
+.admin-table{
+    margin-top: 0;
+}
+.button{
+    margin-top: 20px;
+}
+.form_name{
+    font-size: 2rem;
+    font-family:'Courier New', Courier, monospace ;
+    color:brown ;
+    
+}
+.btn {
+    background-color: rgba(128, 128, 128, 0.801); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+@media only screen and (min-width: 768px) {
+
+}
