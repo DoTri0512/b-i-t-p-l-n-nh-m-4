@@ -3,21 +3,6 @@
     margin: 0;
 }
 
-@font-face {
-    src: url(/Text-font/Raleway/Raleway-VariableFont_wght.ttf);
-    font-family: Raleway;
-}
-
-@font-face {
-    font-family: Poppins-1;
-    src: url(/Text-font/Poppins/Poppins-Medium.ttf);
-}
-
-@font-face {
-    font-family: Poppins-2;
-    src: url(/Text-font/Poppins/Poppins-SemiBold.ttf);
-}
-
 :root {
     --green-1: #26643b;
     --green-2: #a2de96;
@@ -60,7 +45,7 @@
     line-height: 46px;
     padding: 0 15px;
     font-size: 18px;
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
     color: var(--black-1);
 }
 
@@ -73,7 +58,7 @@
     height: 46px;
     border-radius: 8px;
     background-color: var(--green-1);
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
     width: 150px;
     font-size: 20px;
     color: var(--white-1);
@@ -153,12 +138,12 @@
 
 .text1 h3 {
     font-size: 18px;
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
     color: var(--black-1);
 }
 
 .text1 p {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     color: var(--black-2);
     margin-top: 6px;
@@ -176,7 +161,7 @@
     line-height: 36px;
     margin-top: -11px;
     color: var(--black-1);
-    font-family: Poppins-2;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none solid rgb(59, 65, 58);
     letter-spacing: 0.5px;
 }
@@ -190,7 +175,7 @@
 
 .first-name h3 {
     font-size: 18px;
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
     color: var(--black-2);
 }
 
@@ -202,7 +187,7 @@
 }
 
 .last-name h3 {
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     color: var(--black-2);
 }
@@ -217,7 +202,7 @@
 
 .email h3 {
     font-size: 18px;
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
     color: var(--black-2);
 }
 
@@ -231,7 +216,7 @@
 
 .subject h3 {
     font-size: 18px;
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
     color: var(--black-2);
 }
 
@@ -245,7 +230,7 @@
 
 .message h3 {
     font-size: 18px;
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
     color: var(--black-2);
 }
 
@@ -258,7 +243,7 @@
     margin-top: 6px;
     border-radius: 8px;
     float: left;
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
 
@@ -270,7 +255,7 @@
     border-radius: 8px;
     margin-top: 6px;
     float: right;
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
     padding: 20px;
 }
 
@@ -282,7 +267,7 @@
     border-radius: 8px;
     margin-top: 6px;
     float: left;
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
     padding: 20px;
 }
 
@@ -294,7 +279,7 @@
     border-radius: 8px;
     margin-top: 6px;
     float: right;
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
     padding: 20px;
 }
 
@@ -310,7 +295,7 @@
     padding-left: 20px;
     display: inline-block;
     background-color: var(--lightGreen-1);
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
 }
 
 #message::-webkit-scrollbar {
@@ -325,7 +310,7 @@
     font-size: 20px;
     border-radius: 8px;
     color: var(--white-1);
-    font-family: Poppins-2;
+    font-family: 'Poppins', sans-serif;
     background-color: var(--green-1);
     letter-spacing: 1px;
 }
