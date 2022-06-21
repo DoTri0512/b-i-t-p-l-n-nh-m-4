@@ -5,14 +5,15 @@ body {
     overflow: hidden;
 }
 
-@font-face {
-    font-family: Poppins-2;
-    src: url(/Text-font/Poppins/Poppins-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: Poppins-3;
-    src: url(/Text-font/Poppins/Poppins-Regular.ttf);
+:root {
+    --green-1: #26643b;
+    --green-2: #a2de96;
+    --lightGreen-1: #d6e5d8;
+    --lightGreen-2: #f5fcf4;
+    --black-1: #3b413a;
+    --black-2: #3f3c3c;
+    --black-3: #5b6359;
+    --white-1: #e8e8e8;
 }
 
 .main {
@@ -37,6 +38,7 @@ body {
 .header-text {
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
+    letter-spacing: 0.5px;
 }
 
 .body {
@@ -44,13 +46,16 @@ body {
 }
 
 .body-text {
-    font-family: Poppins-3;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    letter-spacing: 0.5px;
 }
 
 #back-link {
-    color: #007067;
-    font-family: Poppins-2;
+    color: var(--green-1);
+    font-family: 'Roboto', sans-serif;
 }
 
 a:link {
