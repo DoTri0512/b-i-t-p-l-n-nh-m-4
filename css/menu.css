@@ -1,6 +1,13 @@
 *{
     box-sizing: border-box;
 }
+.wrapper{
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #f5fcf4;
+}
 .content__page-title{
     width: 100%;
     line-height: 100px;
@@ -31,7 +38,7 @@
     gap:20px;
 }
 .ourSpecial-item{
-    width: 590px;
+    width: 100%;
     background-color: #d6e5d8;
     border-radius: 12px;
     display: flex;
@@ -154,7 +161,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 30px;
-    background-color: red;
 }
 .content-breakfast-title{
     font-family: 'Poppins',sans-serif;
@@ -232,7 +238,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    background-color: red;
 }
 .content-lunch-title{
     font-family: 'Poppins',sans-serif;
@@ -311,7 +316,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    background-color: red;
 }
 .content-dinner-title{
     font-family: 'Poppins',sans-serif;

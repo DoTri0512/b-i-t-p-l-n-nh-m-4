@@ -8,6 +8,10 @@
 body{
     background-color: #f5fcf4;
 }
+
+.wrapper{
+    width: 100%;
+}
 .header{
     height: 90px;
     width: 1349px;
@@ -102,12 +106,11 @@ body{
     position: fixed;
     top:0;
     bottom: 0;
-    right: 0;
+    right: -100%;
     /* display: none; */
     opacity: 0;
     pointer-events: none;
     background-color: #d6e5d8;
-    width: 80%;
 }
 .header-menu-list-mobile{
     margin-top: 200px;
@@ -150,10 +153,11 @@ body{
     background-color: #26643b;
     font-family: 'Poppins',sans-serif;
 }
-<<<<<<< HEAD
-=======
 /*Tablet*/
 @media only screen and (min-width:740px) and (max-width:1023px){
+    /* body{
+        overflow-x: hidden;
+    } */
     #header__menu-bars{
         display: block;
     }
@@ -163,7 +167,6 @@ body{
     #header__mobile-menu{
         opacity: 0;
         width: 80%;
-        right: -100%;
     }
     #header__mobile-menu.active {
 
@@ -183,6 +186,9 @@ body{
 }
 /*Mobile*/
 @media only screen and (max-width:739px){
+    /* body{
+        overflow-x: hidden;
+    } */
     #header__menu-bars{
         display: block;
         
@@ -193,7 +199,6 @@ body{
     #header__mobile-menu{
         width: 80%;
         opacity: 0;
-        right: -100%;
     }
     #header__mobile-menu.active {
         opacity: 1;
@@ -211,4 +216,3 @@ body{
     }
 }
 
->>>>>>> 0ec69980fb8f6d17d653822e16bb1f49d9f7aa39

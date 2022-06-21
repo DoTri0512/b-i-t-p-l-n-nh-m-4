@@ -214,6 +214,34 @@
 
 }
 @media only screen and (max-width:500px) {
+      /*.content__ourSpecial*/
+      .ourSpecial-title{
+        font-size: 18px;
+    }
+    .ourSpecial-list-item{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .ourSpecial-item{
+        padding: 10px 0;
+    }
+    .ourSpecial-item-img{
+        margin-left: 10px;
+    }
+    .ourSpecial-item-1{
+        padding: 10px 0;
+    }
+    .ourSpecial-item-2{
+        margin-top: -5px;
+        padding: 10px 0;
+        margin-right: 40px;
+    }
+    .ourSpecial-item-title{
+        font-size: 24px;
+    }
+    .ourSpecial-item-price{
+        font-size: 18px;
+    }
     .content-dishes-list{
         display: flex;
         width: 100%;
