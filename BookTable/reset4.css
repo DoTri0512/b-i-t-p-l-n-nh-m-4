@@ -5,26 +5,20 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-:root {
-    --green-1: #26643b;
-    --green-2: #a2de96;
-    --lightGreen-1: #d6e5d8;
-    --lightGreen-2: #f5fcf4;
-    --black-1: #3b413a;
-    --black-2: #3f3c3c;
-    --black-3: #5b6359;
-    --white-1: #e8e8e8;
-}
 body,
+footer,
 div,
 h3,
+h4,
 p,
 a,
+ol,
 ul,
 li,
 form,
 label,
-section
+section,
+i
 {
 	margin: 0;
 	padding: 0;
@@ -37,13 +31,16 @@ section
 	outline: 0;
 }
 footer,
-header,
 section {
 	display: block;
 }
 body {
 	line-height: 1;
 }
+ol,ul {
+	list-style: none;
+}
+
 textarea {
 	overflow: auto;
 	vertical-align: top;
@@ -54,7 +51,16 @@ textarea {
     text-shadow: none;
 }
 html {
-	font-size: 100%; /* 1 */
+	font-size: 100%; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+a:focus {
+	outline: thin dotted;
+}
+a:active,
+a:hover {
+	outline: 0;
 }
 form {
 	margin: 0;
@@ -64,9 +70,10 @@ button,
 input,
 select,
 textarea {
-	font-size: 100%; /* 1 */
-	margin: 0; /* 2 */
-	vertical-align: baseline; /* 3 */
+	font-size: 100%; 
+	margin: 0; 	
+	vertical-align: baseline; 
+	*vertical-align: middle;
 }
 button,
 input {
@@ -95,3 +102,18 @@ textarea {
 /* textarea {
 	resize: vertical;
 } */
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button; /* 2 */
+	cursor: pointer; /* 3 */
+	*overflow: visible; /* 4 */
+}
+img {
+	vertical-align: middle;
+}
+textarea {
+	resize: vertical;
+}
+
