@@ -316,6 +316,9 @@
     .footer-col-2 {
         margin-top: 30px;
     }
+    .hide{
+        display: none;
+    }
 }
 @media only screen and (max-width:600px){
     .content-info{
@@ -476,8 +479,8 @@
     .testimonial-item-3{
        padding: 10px 10px;
        height: 100%;
-    } 
-    .testimonial-item-3 .testimonial-img{
+    }
+    .i3 .testimonial-img{
         height: 100%;
     }
     .testimonial-item-3 .testimonial-img{
@@ -501,6 +504,9 @@
     }
     .copy-right{
         width: 100%;
+    }
+    .hide{
+        display: none;
     }
     
 
@@ -611,6 +617,9 @@
     }
     .content-special-left .content-special-iteam .content-food-img{
         height: auto;
+    }
+    .hide{
+        display: none;
     }
 
 
