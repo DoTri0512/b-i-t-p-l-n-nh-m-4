@@ -76,7 +76,7 @@ body {
     line-height: 18px;
     font-weight: 500;
     color: #3f3c3c;
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
 }
 
 .book-link {
@@ -90,7 +90,7 @@ body {
     height: 45px;
     padding: 13px 20px;
     background-color: #26643b;
-    font-family: Poppins-1;
+    font-family: 'Poppins', sans-serif;
 }
 
 #header__menu-bars {
