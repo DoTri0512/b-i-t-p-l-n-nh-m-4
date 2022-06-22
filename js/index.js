@@ -6,6 +6,12 @@
     overlay.classList.toggle('active')
 
  }
+ function contactform(e) {
+   e.preventDefault()
+   location.href = "index.html"
+   alert('Submitted successfully')
+ }
+document.getElementById("submitt").onsubmit = contactform
 AOS.init({
     offset: 200,  //offset (in px) from the original trigger point
     delay: 100, // values from 0 to 3000, with step 50ms
