@@ -22,7 +22,6 @@ body{
 .content-hero{
     width: 100%;
     display: flex;
-    padding: 100px 0;
     align-items: center;
 }
 .hero-wrapper{
@@ -922,12 +921,13 @@ body{
     line-height: 1.4rem;
 }
 .copy-right{
-    width: 100%;
+    width: 1349px;
     height: 42px;
     display: flex;
     align-items: center;
 }
 .copy-right-text{
+    max-width: 1200px;
     width: 90%;
     height: 22px;
     font-family: Raleway;

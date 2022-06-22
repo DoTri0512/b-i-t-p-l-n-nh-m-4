@@ -345,13 +345,6 @@
     .footer-col-2 {
         margin-top: 30px;
     }
-    .copy-right-text{
-        margin: 0 auto;
-        width: 90%;
-    }
-    .copy-right{
-        width: 100%;
-    }
 }
 @media only screen and (min-width:740px) and (max-width:799px) {
     /*Content-top-dishes*/
