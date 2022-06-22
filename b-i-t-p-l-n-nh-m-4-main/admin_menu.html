@@ -22,36 +22,79 @@
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     </header>
-    <div class="container">
-        <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-              </tr>
-            </tbody>
-          </table>
+    <div class="admin__home">
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="admin__nav-home">
+          <a class="navbar-brand" href="./admin_home.html">
+              <img src="./picture/logo.svg" alt="logo" class="admin__logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="./admin_page.html">Admin</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                  </li> 
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Book Table</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./admin_Login.html">Logout</a>
+                  </li>      
+              </ul>
+          </div>  
+        </nav>
+      </div>
+    <div class="content__admin-home">
+      <div class="content__admin-img">
+        <div class="container">
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Number</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Dish ingredients</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Vegan Salad bowl</td>
+                  <td>$18</td>
+                  <td>Tomatose, vegetables,...</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Vegan Pesto Zoodles</td>
+                  <td>$12</td>
+                  <td>Carrots, papaya,...</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Hot Green Bowl</td>
+                  <td>$12</td>
+                  <td>Eggs, vegetables,...</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Sweet Potato Fries Bowl</td>
+                  <td>$18</td>
+                  <td>Potatose, vegetables,...</td>
+                </tr>
+              </tbody>
+            </table>
+      </div>
+      <div class="button">
+        <button class="btn btn_add">Thêm</button>
+        <button class="btn btn_edit">Sửa</button>
+        <button class="btn btn_del">Xóa</button>
     </div>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
